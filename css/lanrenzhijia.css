@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* 代码整理：懒人之家 */
+
+* {
+	margin:0;
+	padding:0;
+}
+img, a {
+	border:0;
+}
+.span230 {
+	width:260px;
+}
+ul, li {
+	list-style:none;
+}
+.btntop, .btnbottom {
+	height:12px;
+	overflow:hidden;
+	background:url(../images/arrowtopbottom.gif) no-repeat;
+	cursor:pointer;
+}
+.btntop {
+	background-position:60px 0;
+}
+.btnbottom {
+	background-position:60px -12px;
+}
+#scrollbox {
+	height:396px;
+	overflow:hidden;
+}
+.scrollcon {
+	height:800%;
+}
+.scrollpic li {
+	height:91px;
+	overflow:hidden;
+	margin:5px 0;
+}
+.scrollpic li img {
+	float:left;
+	display:inline;
+	margin:0 10px 0 0;
+}
+.scrollpic li a {
+	display:block;
+	height:91px;
+	background:#99addf;
+	font-size:12px;
+	color:#fff;
+	line-height:20px;
+	text-decoration:none;
+}
+.scrollpic li a:hover {
+	background:#3d4558;
+	color:#ff6600;
+}
